@@ -30,7 +30,7 @@
 | Engine = [[Beispielengine]]
 | Modi = [[Singleplayer|Einzelspieler]]
 | Steuerung = Maus und Tastatur
-| Website = [http://games.blackpinguin.de/ Internetseite]
+| Website = [http://games.blackpinguin.de/ Beispielseite]
 }}
 Parameter: Title, Bild, Entwickler, Engine, Genre, Modi, Steuerung, Website.
 </noinclude>
