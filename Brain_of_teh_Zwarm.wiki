@@ -89,7 +89,7 @@ Mit genügend Audioclips in vielen verschiedenen Tonhöhen zur Auswahl könnte m
 
 == Ursprüngliche Idee ==
 
-[[Datei:BotZ_Idee.png|thumb|upright=1.5|Abb. 3: Erste Whiteboard-Spielidee zu Brain of teh Zwarm]]
+[[Datei:BotZ_Idee.png|thumb|upright=1.0|Abb. 3: Erste Whiteboard-Spielidee zu Brain of teh Zwarm]]
 
 Die ursprüngliche Idee aus dem Wintersemester 2012/13 war es einen Menschen zu spielen, der vor einer Masse von Zombies davonläuft. Am linkem Bildschirmrand hätte sich eine unaufhaltbare Wand aus Zombies befunden, die den Spieler die Straße entlang jagt. Der Spieler wäre immer weiter die Straße entlang gegangen und hätte Streunern (zufällig vor ihm auftauchende Zombies) ausweichen oder mit Waffengewalt ausschalten müssen.
 
