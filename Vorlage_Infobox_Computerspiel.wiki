@@ -6,7 +6,8 @@
 | }}
 {{#if:{{{Entwickler|}}} | {{!}}-
 {{!}} style="vertical-align:top; background-color:#E6E6E6;" {{!}} [[Entwickler]]
-{{!}} style="vertical-align:top; background-color:#F6F6F6;" {{!}} {{{Entwickler}}} | }}
+{{!}} style="vertical-align:top; background-color:#F6F6F6;" {{!}}
+{{{Entwickler}}} | }}
 {{#if:{{{Engine|}}} | {{!}}- 
 {{!}} style="background-color:#E6E6E6;" {{!}} [[Spiel-Engine]] 
 {{!}} style="background-color:#F6F6F6;" {{!}} {{{Engine}}} | }}
@@ -24,8 +25,7 @@
 |}[[Kategorie:Computerspiel]]</includeonly><noinclude>
 {{Infobox Computerspiel
 | Bild = Beispiel_Spiel.png
-| Entwickler =
-* [[Benutzer:Beispiel1|Person 1]]
+| Entwickler = * [[Benutzer:Beispiel1|Person 1]]
 * [[Benutzer:Beispiel2|Person 2]]
 | Engine = [[Beispielengine]]
 | Modi = [[Singleplayer|Einzelspieler]]
