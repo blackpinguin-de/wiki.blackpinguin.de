@@ -1,26 +1,26 @@
 <includeonly>{| class="float-right wikitable infobox" id="vorlage-infobox-Spiel" summary="Infobox Spiel" style="clear:right; float:right; margin-left:1.4em;"
 |-
 ! style="background-color:#444; color:#FFF;" colspan="2" | {{#if:{{{Titel|}}} | {{{Titel}}} | {{PAGENAME}} }}
-{{#if:{{{Bild|}}} | |- 
-| colspan="2" | [[Datei:{{{Bild}}}|rand|center|250x200px]]
+{{#if:{{{Bild|}}} | {{!}}- 
+{{!}} colspan="2" {{!}} [[Datei:{{{Bild}}}|rand|center|250x200px]]
 | }}
-{{#if:{{{Entwickler|}}} | |-
-| style="vertical-align:top; background-color:#E6E6E6;" | [[Entwickler]]
-| style="vertical-align:top; background-color:#F6F6F6;" | {{{Entwickler}}} | }}
-{{#if:{{{Engine|}}} | |- 
-| style="background-color:#E6E6E6;" | [[Spiel-Engine]] 
-| style="background-color:#F6F6F6;" | {{{Engine}}} | }}
-{{#if:{{{Genre|}}} | |- 
-| style="background-color:#E6E6E6;" | [[Genre|Genre(s)]] 
-| style="background-color:#F6F6F6;" | {{{Genre}}} | }}
-{{#if:{{{Modi|}}} | |- 
-| style="background-color:#E6E6E6;" | [[Spielmodi]] 
-| style="background-color:#F6F6F6;" | {{{Modi}}} | }}
-{{#if:{{{Steuerung|}}} | |- 
-| style="background-color:#E6E6E6;" | [[Steuerung]] 
-| style="background-color:#F6F6F6;" | {{{Steuerung}}} | }}
-{{#if:{{{Website|}}} | |- class="hintergrundfarbe5"
-| style="background-color: #E0E0E0;" colspan="2" align="center" | {{{Website}}} | }}
+{{#if:{{{Entwickler|}}} | {{!}}-
+{{!}} style="vertical-align:top; background-color:#E6E6E6;" {{!}} [[Entwickler]]
+{{!}} style="vertical-align:top; background-color:#F6F6F6;" {{!}} {{{Entwickler}}} | }}
+{{#if:{{{Engine|}}} | {{!}}- 
+{{!}} style="background-color:#E6E6E6;" {{!}} [[Spiel-Engine]] 
+{{!}} style="background-color:#F6F6F6;" {{!}} {{{Engine}}} | }}
+{{#if:{{{Genre|}}} | {{!}}- 
+{{!}} style="background-color:#E6E6E6;" {{!}} [[Genre|Genre(s)]] 
+{{!}} style="background-color:#F6F6F6;" {{!}} {{{Genre}}} | }}
+{{#if:{{{Modi|}}} | {{!}}- 
+{{!}} style="background-color:#E6E6E6;" {{!}} [[Spielmodi]] 
+{{!}} style="background-color:#F6F6F6;" {{!}} {{{Modi}}} | }}
+{{#if:{{{Steuerung|}}} | {{!}}- 
+{{!}} style="background-color:#E6E6E6;" {{!}} [[Steuerung]] 
+{{!}} style="background-color:#F6F6F6;" {{!}} {{{Steuerung}}} | }}
+{{#if:{{{Website|}}} | {{!}}- class="hintergrundfarbe5"
+{{!}} style="background-color: #E0E0E0;" colspan="2" align="center" {{!}} {{{Website}}} | }}
 |}[[Kategorie:Computerspiel]]</includeonly><noinclude>
 {{Infobox Computerspiel
 | Bild = Beispiel_Spiel.png
