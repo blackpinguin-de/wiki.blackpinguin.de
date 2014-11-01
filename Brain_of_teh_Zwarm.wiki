@@ -248,11 +248,11 @@ Als Schriftart für GUI-Elemente wird, passend zum restlichen Spieldesign, eine 
 
 === Grafik ===
 
-[[Datei:BotZ_Font1.png|thumb|upright=2.5|Abb. 4: Eigene Schriftart, ohne Nachbearbeitung.]]
+[[Datei:BotZ_Font1.png|thumb|upright=1.65|Abb. 4: Eigene Schriftart, ohne Nachbearbeitung.]]
 
 Zeichnen und Fotografieren sind einfach und schnell erledigt, aber die Nachbearbeitung nimmt etwas Zeit in Anspruch. Zunächst muss jedes Zeichen einzeln ausgeschnitten werden und dessen Hintergrund transparent gemacht werden. Damit nicht für jedes Zeichen eine einzelne Datei erstellt wird und jeweils separat geladen werden muss, werden alle Zeichen zusammen in einer Bilddatei in einem Raster aus 150 x 150 px Quadraten gespeichert. Jedes Quadrat enthält ein Zeichen, und die Höhe aller Zeichen muss normiert werden, um einen gleichmäßigen Textfluss zu erreichen.
 
-[[Datei:BotZ_Font2.png|thumb|upright=2.5|Abb. 5: Nachbearbeitete eigene Schriftart.]]
+[[Datei:BotZ_Font2.png|thumb|upright=1.65|Abb. 5: Nachbearbeitete eigene Schriftart.]]
 
 Abzüglich 10 Pixel als Abstand an den Rändern zu anderen Quadraten habe ich mich auf folgende Zeichenhöhen festgelegt:
 
@@ -265,9 +265,9 @@ j, ß: 130 px
 Verbleibende Minuskeln (a, c, e, i, m, n, o, r, s, u, v, w, x, z): 75px
 
 === GUI ===
-{| align="right"
-||[[Datei:BotZ_Font3.png|thumb|upright=1.5|Abb. 6: Anwendungsbsp. bei 1680x1050 px (16:10).]]
-||[[Datei:BotZ_Font4.png|thumb|upright=1.25|Abb. 7: Anwendungsbsp. bei 640x480 px (4:3).]]
+{| class="float-right" style="clear:right; float:right; "
+||[[Datei:BotZ_Font3.png|thumb|upright=1.0|Abb. 6: Anwendungsbsp. bei 1680x1050 px (16:10).]]
+||[[Datei:BotZ_Font4.png|thumb|upright=0.85|Abb. 7: Anwendungsbsp. bei 640x480 px (4:3).]]
 |}
 
 Um meine Schriftart zu verwenden, implementiere ich eine eigene Klassenhierarchie für GUI-Objekte, die sich nach dem Motivationsbeispiel für das Flyweight Entwurfsmuster in ''Design Patterns''<ref name="GHJV94" /> richtet. Das bedeutet, jedes Zeichen ist ein eigenes Objekt der Klasse GCharacter, das jedoch nur ein einziges Mal erstellt wird (Objekte der GCharacter-Klasse sind Flyweights). Um das zu gewährleisten, können GCharacter-Objekte nur über eine zentrale Factory Method<ref name="GHJV94" /> erstellt werden, die neue Objekte nur dann erstellt, wenn sie noch nicht existieren. Da bei mehrfacher Verwendung des gleichen Zeichens auf das identische Objekt referenziert wird, kann sich der intrinsische Zustand dieser Objekte nur auf das Zeichen selbst und dessen allgemeine Eigenschaften (Breitenverhältnis, Offset) beschränken. Extrinsische Zustände, wie die Position an der es gezeichnet werden sollen oder dessen Schriftgrößen, müssen an die entsprechenden Operationen (Draw, Width, Height) übergeben werden, um kontextabhängig die gewünschte Funktionalität erreichen zu können.
