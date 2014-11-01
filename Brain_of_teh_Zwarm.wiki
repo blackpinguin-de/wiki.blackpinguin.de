@@ -64,9 +64,9 @@ Upgrades kosten Gehirne um sie entwickeln zu können und sind nicht sofort verf�
 
 == Grafik ==
 
-{| align="right"
-||[[Datei:BotZ_Zombie.png|thumb|upright=0.6|Abb. 1: ein einzelner Zombie]]
-||[[Datei:BotZ_Zombie_Hat.png|thumb|upright=0.6|Abb. 2: Zombie mit [http://www.explainxkcd.com/wiki/index.php?title=Black_Hat schwarzem Hut]]]
+{| class="float-right" style="clear:right; float:right; "
+||[[Datei:BotZ_Zombie.png|thumb|upright=0.4|Abb. 1: ein einzelner Zombie]]
+||[[Datei:BotZ_Zombie_Hat.png|thumb|upright=0.4|Abb. 2: Zombie mit [http://www.explainxkcd.com/wiki/index.php?title=Black_Hat schwarzem Hut]]]
 |}
 
 Das Spiel soll eine Strichmännchen-Grafik haben, das heißt, dass die Figuren nur aus einfachen Linien bestehen und Gebäude, Hindernisse und Objekte nur aus durch ihre Konturen erkennbar sind.
