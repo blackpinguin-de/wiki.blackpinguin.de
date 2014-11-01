@@ -65,8 +65,8 @@ Upgrades kosten Gehirne um sie entwickeln zu können und sind nicht sofort verf�
 == Grafik ==
 
 {| align="right"
-||[[Datei:BotZ_Zombie.png|mini|hochkant=0.6|Abb. 1: ein einzelner Zombie]]
-||[[Datei:BotZ_Zombie_Hat.png|mini|hochkant=0.6|Abb. 2: Zombie mit [http://www.explainxkcd.com/wiki/index.php?title=Black_Hat schwarzem Hut]]]
+||[[Datei:BotZ_Zombie.png|thumb|upright=0.6|Abb. 1: ein einzelner Zombie]]
+||[[Datei:BotZ_Zombie_Hat.png|thumb|upright=0.6|Abb. 2: Zombie mit [http://www.explainxkcd.com/wiki/index.php?title=Black_Hat schwarzem Hut]]]
 |}
 
 Das Spiel soll eine Strichmännchen-Grafik haben, das heißt, dass die Figuren nur aus einfachen Linien bestehen und Gebäude, Hindernisse und Objekte nur aus durch ihre Konturen erkennbar sind.
@@ -89,7 +89,7 @@ Mit genügend Audioclips in vielen verschiedenen Tonhöhen zur Auswahl könnte m
 
 == Ursprüngliche Idee ==
 
-[[Datei:BotZ_Idee.png|mini|hochkant=1.5|Abb. 3: Erste Whiteboard-Spielidee zu Brain of teh Zwarm]]
+[[Datei:BotZ_Idee.png|thumb|upright=1.5|Abb. 3: Erste Whiteboard-Spielidee zu Brain of teh Zwarm]]
 
 Die ursprüngliche Idee aus dem Wintersemester 2012/13 war es einen Menschen zu spielen, der vor einer Masse von Zombies davonläuft. Am linkem Bildschirmrand hätte sich eine unaufhaltbare Wand aus Zombies befunden, die den Spieler die Straße entlang jagt. Der Spieler wäre immer weiter die Straße entlang gegangen und hätte Streunern (zufällig vor ihm auftauchende Zombies) ausweichen oder mit Waffengewalt ausschalten müssen.
 
@@ -248,11 +248,11 @@ Als Schriftart für GUI-Elemente wird, passend zum restlichen Spieldesign, eine 
 
 === Grafik ===
 
-[[Datei:BotZ_Font1.png|mini|hochkant=2.5|Abb. 4: Eigene Schriftart, ohne Nachbearbeitung.]]
+[[Datei:BotZ_Font1.png|thumb|upright=2.5|Abb. 4: Eigene Schriftart, ohne Nachbearbeitung.]]
 
 Zeichnen und Fotografieren sind einfach und schnell erledigt, aber die Nachbearbeitung nimmt etwas Zeit in Anspruch. Zunächst muss jedes Zeichen einzeln ausgeschnitten werden und dessen Hintergrund transparent gemacht werden. Damit nicht für jedes Zeichen eine einzelne Datei erstellt wird und jeweils separat geladen werden muss, werden alle Zeichen zusammen in einer Bilddatei in einem Raster aus 150 x 150 px Quadraten gespeichert. Jedes Quadrat enthält ein Zeichen, und die Höhe aller Zeichen muss normiert werden, um einen gleichmäßigen Textfluss zu erreichen.
 
-[[Datei:BotZ_Font2.png|mini|hochkant=2.5|Abb. 5: Nachbearbeitete eigene Schriftart.]]
+[[Datei:BotZ_Font2.png|thumb|upright=2.5|Abb. 5: Nachbearbeitete eigene Schriftart.]]
 
 Abzüglich 10 Pixel als Abstand an den Rändern zu anderen Quadraten habe ich mich auf folgende Zeichenhöhen festgelegt:
 
@@ -266,8 +266,8 @@ Verbleibende Minuskeln (a, c, e, i, m, n, o, r, s, u, v, w, x, z): 75px
 
 === GUI ===
 {| align="right"
-||[[Datei:BotZ_Font3.png|mini|hochkant=1.5|Abb. 6: Anwendungsbsp. bei 1680x1050 px (16:10).]]
-||[[Datei:BotZ_Font4.png|mini|hochkant=1.25|Abb. 7: Anwendungsbsp. bei 640x480 px (4:3).]]
+||[[Datei:BotZ_Font3.png|thumb|upright=1.5|Abb. 6: Anwendungsbsp. bei 1680x1050 px (16:10).]]
+||[[Datei:BotZ_Font4.png|thumb|upright=1.25|Abb. 7: Anwendungsbsp. bei 640x480 px (4:3).]]
 |}
 
 Um meine Schriftart zu verwenden, implementiere ich eine eigene Klassenhierarchie für GUI-Objekte, die sich nach dem Motivationsbeispiel für das Flyweight Entwurfsmuster in ''Design Patterns''<ref name="GHJV94" /> richtet. Das bedeutet, jedes Zeichen ist ein eigenes Objekt der Klasse GCharacter, das jedoch nur ein einziges Mal erstellt wird (Objekte der GCharacter-Klasse sind Flyweights). Um das zu gewährleisten, können GCharacter-Objekte nur über eine zentrale Factory Method<ref name="GHJV94" /> erstellt werden, die neue Objekte nur dann erstellt, wenn sie noch nicht existieren. Da bei mehrfacher Verwendung des gleichen Zeichens auf das identische Objekt referenziert wird, kann sich der intrinsische Zustand dieser Objekte nur auf das Zeichen selbst und dessen allgemeine Eigenschaften (Breitenverhältnis, Offset) beschränken. Extrinsische Zustände, wie die Position an der es gezeichnet werden sollen oder dessen Schriftgrößen, müssen an die entsprechenden Operationen (Draw, Width, Height) übergeben werden, um kontextabhängig die gewünschte Funktionalität erreichen zu können.
@@ -284,7 +284,7 @@ Für variable Zahlen wie die Anzahl gefundener Gehirne bietet sich eine Klasse G
 
 ==== Wander ====
 
-[[Datei:BotZ_Wander.png|mini|hochkant=2.5|Abb. 8: Die Entität strebt '''t''' auf dem Wander-Kreis mittels '''force''' an.]]
+[[Datei:BotZ_Wander.png|thumb|upright=2.5|Abb. 8: Die Entität strebt '''t''' auf dem Wander-Kreis mittels '''force''' an.]]
 
 Damit die Zombies oder Menschen anfänglich nicht blöd in der Gegend rumstehen oder stur in eine Richtung gehen, wird das Wander Steering Behavior<ref name="Buc04" /> angewendet. Dadurch wandert die Entität herum, sie bewegt sich zufällig durch den Raum, jedoch nicht in eine stockende und ständig wechselnde zufällige Richtung, sondern durch langsames Drehen der Zielrichtung.
 
@@ -296,7 +296,7 @@ Der Vektor '''t''' wird bei jeder Iteration durch Vektoraddition mit einem zufä
 
 ==== Offset Pursuit ====
 
-[[Datei:BotZ_OffsetPursuit.png|mini|hochkant=2.5|Abb. 9: Zombie Z<sub>2</sub> strebt Position '''o<sub>2<sub>t</sub></sub>''' an und nicht '''o<sub>2</sub>'''.]]
+[[Datei:BotZ_OffsetPursuit.png|thumb|upright=2.5|Abb. 9: Zombie Z<sub>2</sub> strebt Position '''o<sub>2<sub>t</sub></sub>''' an und nicht '''o<sub>2</sub>'''.]]
 
 Um die Zombies die zum Zwarm (Zombie Schwarm) gehören, relativ zur Spielfigur zu positionieren wird das Offset Pursuit Steering Behavior<ref name="Buc04" /> verwendet. Hierbei werden vier Offset Vektoren '''o<sub>i</sub>''' mit 1 = i = 4 im lokalen Koordinatensystem der Spielfigur disjunkt an die jeweiligen Zombies Z<sub>i</sub> des Zwarms verteilt. Die Vektoraddition von '''o<sub>i</sub>''' mit der extrapolierten Position '''pos<sub>t</sub>''' der Spielfigur zum Zeitpunkt t (abhängig von Distanz zur Spielfigur, Bewegungsrichtung und Geschwindigkeiten) ergibt die Position '''o<sub>i<sub>t</sub></sub>''' im globalen Koordinatensystem die der Zombie anstreben muss, um seine Position zum Zeitpunkt t einnehmen zu können.
 
