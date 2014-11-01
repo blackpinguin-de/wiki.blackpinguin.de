@@ -284,7 +284,7 @@ Für variable Zahlen wie die Anzahl gefundener Gehirne bietet sich eine Klasse G
 
 ==== Wander ====
 
-[[Datei:BotZ_Wander.png|thumb|upright=2.5|Abb. 8: Die Entität strebt '''t''' auf dem Wander-Kreis mittels '''force''' an.]]
+[[Datei:BotZ_Wander.png|thumb|upright=1.65|Abb. 8: Die Entität strebt '''t''' auf dem Wander-Kreis mittels '''force''' an.]]
 
 Damit die Zombies oder Menschen anfänglich nicht blöd in der Gegend rumstehen oder stur in eine Richtung gehen, wird das Wander Steering Behavior<ref name="Buc04" /> angewendet. Dadurch wandert die Entität herum, sie bewegt sich zufällig durch den Raum, jedoch nicht in eine stockende und ständig wechselnde zufällige Richtung, sondern durch langsames Drehen der Zielrichtung.
 
@@ -296,7 +296,7 @@ Der Vektor '''t''' wird bei jeder Iteration durch Vektoraddition mit einem zufä
 
 ==== Offset Pursuit ====
 
-[[Datei:BotZ_OffsetPursuit.png|thumb|upright=2.5|Abb. 9: Zombie Z<sub>2</sub> strebt Position '''o<sub>2<sub>t</sub></sub>''' an und nicht '''o<sub>2</sub>'''.]]
+[[Datei:BotZ_OffsetPursuit.png|thumb|upright=1.65|Abb. 9: Zombie Z<sub>2</sub> strebt Position '''o<sub>2<sub>t</sub></sub>''' an und nicht '''o<sub>2</sub>'''.]]
 
 Um die Zombies die zum Zwarm (Zombie Schwarm) gehören, relativ zur Spielfigur zu positionieren wird das Offset Pursuit Steering Behavior<ref name="Buc04" /> verwendet. Hierbei werden vier Offset Vektoren '''o<sub>i</sub>''' mit 1 ≤ i ≤ 4 im lokalen Koordinatensystem der Spielfigur disjunkt an die jeweiligen Zombies Z<sub>i</sub> des Zwarms verteilt. Die Vektoraddition von '''o<sub>i</sub>''' mit der extrapolierten Position '''pos<sub>t</sub>''' der Spielfigur zum Zeitpunkt t (abhängig von Distanz zur Spielfigur, Bewegungsrichtung und Geschwindigkeiten) ergibt die Position '''o<sub>i<sub>t</sub></sub>''' im globalen Koordinatensystem die der Zombie anstreben muss, um seine Position zum Zeitpunkt t einnehmen zu können.
 
