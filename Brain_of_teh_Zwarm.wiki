@@ -1,29 +1,13 @@
 <div lang="de" style="text-align:justify; hyphens:auto; -moz-hyphens:auto; -ms-hyphens:auto; -webkit-hyphens:auto;">
-
-{| class="float-right wikitable infobox" id="vorlage-infobox-Spiel" summary="Infobox Spiel" style="clear:right; float:right; margin-left:1.4em;"
-|-
-! style="background-color:#444; color:#FFF;" colspan="2" | {{PAGENAME}}
-|- 
-| colspan="2" | [[Datei:BotZ_IdeeNeu.png|rand|center|250x200px]]
-|-
-| style="vertical-align:top; background-color:#E6E6E6;" | [[Entwickler]]
-| style="vertical-align:top; background-color:#F6F6F6;" | 
-* [[Benutzer:RCL|Robin C. Ladiges]]
-|- 
-| style="background-color:#E6E6E6;" | [[Spiel-Engine]] 
-| style="background-color:#F6F6F6;" | [[Unity]]
-|- 
-| style="background-color:#E6E6E6;" | [[Genre|Genre(s)]] 
-| style="background-color:#F6F6F6;" | [[Side-Scroller]]
-|- 
-| style="background-color:#E6E6E6;" | [[Spielmodi]] 
-| style="background-color:#F6F6F6;" | [[Singleplayer|Einzelspieler]]
-|- 
-| style="background-color:#E6E6E6;" | [[Steuerung]] 
-| style="background-color:#F6F6F6;" | Maus und Tastatur
-|- class="hintergrundfarbe5"
-| style="background-color: #E0E0E0;" colspan="2" align="center" | [http://games.blackpinguin.de/BrainOfTehZwarm/ BotZ Internetseite]
-|}[[Kategorie:Computerspiel]]
+{{Infobox Computerspiel
+| Bild = BotZ_IdeeNeu.png
+| Entwickler = * [[Benutzer:RCL|Robin C. Ladiges]]
+| Engine = [[Unity]]
+| Genre = [[Side-Scroller]]
+| Modi = [[Singleplayer|Einzelspieler]]
+| Steuerung = Maus und Tastatur
+| Website = [http://games.blackpinguin.de/BrainOfTehZwarm/ BotZ Internetseite]
+}}
 '''Brain of teh Zwarm'''<sup>[sic]</sup> ist ein 2D-Videospiel, das im Wintersemester 2013/14 im Rahmen des Moduls [[Mediengestaltung 1 (Winter 2013/14)|Mediengestaltung 1]] des Studiengangs [http://www.haw-hamburg.de/medientechnik/studium/media-systems.html Media Systems] des [http://www.haw-hamburg.de/nc/medientechnik.html Department Medientechnik] der [http://www.haw-hamburg.de/nc/dmi.html Fakultät Design, Medien und Information] der [http://www.haw-hamburg.de/ Hochschule für Angewandte Wissenschaften Hamburg] entwickelt wird.
 
 = Idee =
