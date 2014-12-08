@@ -8,7 +8,7 @@
 | Steuerung = Maus und Tastatur
 | Website = [http://games.blackpinguin.de/BrainOfTehZwarm/ BotZ Internetseite]
 }}
-'''Brain of teh Zwarm'''<sup>[sic]</sup> ist ein 2D-Videospiel, das im Wintersemester 2013/14 im Rahmen des Moduls [[Mediengestaltung 1 (Winter 2013/14)|Mediengestaltung 1]] des Studiengangs [http://www.haw-hamburg.de/medientechnik/studium/media-systems.html Media Systems] des [http://www.haw-hamburg.de/nc/medientechnik.html Department Medientechnik] der [http://www.haw-hamburg.de/nc/dmi.html Fakultät Design, Medien und Information] der [http://www.haw-hamburg.de/ Hochschule für Angewandte Wissenschaften Hamburg] entwickelt wird.
+'''Brain of teh Zwarm'''<sup>[sic]</sup> ist ein 2D-Videospiel, das im Wintersemester 2013/14 und Sommersemester 2014 im Rahmen des Moduls [[Mediengestaltung 1 (Winter 2013/14)|Mediengestaltung 1]] und [[Mediengestaltung 2 (Sommer 2014)|Mediengestaltung 2]] des Studiengangs [http://www.haw-hamburg.de/medientechnik/studium/media-systems.html Media Systems] des [http://www.haw-hamburg.de/nc/medientechnik.html Department Medientechnik] der [http://www.haw-hamburg.de/nc/dmi.html Fakultät Design, Medien und Information] der [http://www.haw-hamburg.de/ Hochschule für Angewandte Wissenschaften Hamburg] entwickelt wurde.
 
 = Idee =
 
@@ -125,7 +125,7 @@ Das Jump & Run Spiel [http://www.addictinggames.com/girl-games/i-saw-her-standin
 
 [http://zombiegames.net/games/Zombie-Balloon-Heads.html Zombie Balloon Heads], sowie dessen Nachfolger [http://www.addictinggames.com/funny-games/zombie-balloon-heads-2-game.jsp Zombie Balloon Heads 2] und [http://www.addictinggames.com/funny-games/zombie-balloon-heads-halloween-game.jsp Zombie Balloon Heads Halloween], spielen in einer Fantasiewelt, in der ein gezeichnetes Strichmännchen mit Tinte u.a. auf Zombies schießt bis ihre Schädel so voller Tinte sind, dass sie platzen. Alle Spielobjekte und Oberflächen sehen aus wie von Hand gezeichnet und haben als Hintergrund eine Papiertextur.
 
-= Umsetzung =
+= Umsetzung im Wintersemester 2013/14 =
 
 == Arbeitsaufwand ==
 
