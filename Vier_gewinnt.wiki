@@ -194,7 +194,7 @@ geplant: Präsentationsfolien erstellen und UML-Klassendiagramm textuell ergänz
 == Quellen ==
 <references>
 <ref name="boekhoven">Patrick Boekhoven, Entwicklung eines Reinforcement Learning Frameworks auf Basis eines Agentensystems, 2011, Hamburg - URL http://opus.haw-hamburg.de/volltexte/2011/1269/</ref>
-<ref name="tromp">http://homepages.cwi.nl/~tromp/c4/c4.html</ref>
+<ref name="tromp">[https://web.archive.org/web/20140414062502/http://homepages.cwi.nl/~tromp/c4/c4.html http://homepages.cwi.nl/~tromp/c4/c4.html]</ref>
 </references>
 
 
