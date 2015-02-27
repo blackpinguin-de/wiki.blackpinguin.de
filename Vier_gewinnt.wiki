@@ -14,7 +14,7 @@ In der Version des Sommersemester 2011 von Daniel Wehring ist folgendes implemen
 
 == WS 2011/2012 ==
 
-Bearbeitung in diesem Semester durch: [[Benutzer:RCLadiges|Robin C. Ladiges]]
+Bearbeitung in diesem Semester durch: [[Benutzer:RCL|Robin C. Ladiges]]
 
 Noch zu machen:
 * einbetten des erstellten Agenten / weiterentwickeln
