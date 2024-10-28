@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html class="client-js" dir="ltr" lang="de">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<meta charset="UTF-8">
+<title>Vier gewinnt – BP Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Vier_gewinnt","wgTitle":"Vier gewinnt","wgCurRevisionId":37,"wgRevisionId":36,"wgArticleId":16,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Reinforcement Learning","SS11","WS11/12"],"wgBreakFrames":false,"wgPageContentLanguage":"de","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgMonthNamesShort":["","Jan.","Feb.","Mär.","Apr.","Mai","Jun.","Jul.","Aug.","Sep.","Okt.","Nov.","Dez."],"wgRelevantPageName":"Vier_gewinnt","wgRelevantArticleId":16,"wgRequestId":"b816b53b70ba15775da0fc48","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@1wzrrbt",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"de"});
+});mw.loader.implement("user.tokens@0segm57",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["ext.cite.a11y","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"]);});</script>
+
+<script async="" src="load.php"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<meta name="generator" content="MediaWiki 1.31.16">
+<meta name="robots" content="noindex,nofollow">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="https://wiki.blackpinguin.de/opensearch_desc.php" title="BP Wiki (de)">
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.blackpinguin.de/api.php?action=rsd">
+<link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+<link rel="alternate" type="application/atom+xml" title="Atom-Feed für „BP Wiki“" href="https://wiki.blackpinguin.de/index.php?title=Spezial:Letzte_%C3%84nderungen&amp;feed=atom">
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=de&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+<script src="load_001.php"></script>
+<link media="all" href="default_022.css" type="text/css" rel="stylesheet">
+</head>
+<body class="mediawiki ltr sitedir-ltr capitalize-all-nouns mw-hide-empty-elt ns-0 ns-subject page-Vier_gewinnt rootpage-Vier_gewinnt skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="de">Vier gewinnt</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">Aus BP Wiki</div>				<div id="contentSub"><div class="mw-revision"><div id="mw-revision-info">Version vom 27. Februar 2015, 05:28 Uhr von <a href="https://wiki.blackpinguin.de/index.php?title=Benutzer:RCL&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="Benutzer:RCL (Seite nicht vorhanden)"><bdi>RCL</bdi></a> <span class="mw-usertoollinks">(<a href="https://wiki.blackpinguin.de/index.php?title=Benutzer_Diskussion:RCL&amp;action=edit&amp;redlink=1" class="new mw-usertoollinks-talk" title="Benutzer Diskussion:RCL (Seite nicht vorhanden)">Diskussion</a> | <a href="https://wiki.blackpinguin.de/index.php/Spezial:Beitr%C3%A4ge/RCL" class="mw-usertoollinks-contribs" title="Spezial:Beiträge/RCL">Beiträge</a>)</span> <span class="comment">(<a href="#Quellen">→</a>‎<span dir="auto"><span class="autocomment">Quellen</span></span>)</span></div><div id="mw-revision-nav">(<a href="https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;diff=prev&amp;oldid=36" title="Vier gewinnt">Unterschied</a>) <a href="https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;direction=prev&amp;oldid=36" title="Vier gewinnt">← Nächstältere Version</a> | <a href="vier_gewinnt.html" title="Vier gewinnt" indepth="true">Aktuelle Version</a> (<a href="https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;diff=cur&amp;oldid=36" title="Vier gewinnt">Unterschied</a>) | <a href="https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;direction=next&amp;oldid=36" title="Vier gewinnt">Nächstjüngere Version →</a> (<a href="https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;diff=next&amp;oldid=36" title="Vier gewinnt">Unterschied</a>)</div></div></div>
+								<div id="jump-to-nav" class="mw-jump">
+					Wechseln zu:					<a href="#mw-head">Navigation</a>, 					<a href="#p-search">Suche</a>
+				</div>
+				<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="de"><div class="mw-parser-output"><p>Vier gewinnt ist ein Spiel, bei dem zwei Spieler abwechselnd unterschiedlich farbige Spielsteine in ein festes Raster werfen. Gewonnen hat der Spieler der zuerst mit seinen Spielsteinen ein Muster erreicht, bei dem vier Steine in einer Reihe sind. Ist das ganze Spielfeld voll und es wurde kein entsprechendes Muster erreicht ist das Spiel unentschieden.
+</p><p>In diesem Artikel geht es darum mittels <a href="https://wiki.blackpinguin.de/index.php?title=Reinforcment_Learning&amp;action=edit&amp;redlink=1" class="new" title="Reinforcment Learning (Seite nicht vorhanden)">Reinforcment Learning</a> einen Computergegner zu erstellen.
+</p>
+<div id="toc" class="toc"><div class="toctitle" dir="ltr" lang="de"><h2>Inhaltsverzeichnis</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#SS_2011"><span class="tocnumber">1</span> <span class="toctext">SS 2011</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#WS_2011.2F2012"><span class="tocnumber">2</span> <span class="toctext">WS 2011/2012</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#zu_KW42"><span class="tocnumber">2.1</span> <span class="toctext">zu KW42</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#m.C3.B6gliche_Optimierungen"><span class="tocnumber">2.1.1</span> <span class="toctext">mögliche Optimierungen</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-5"><a href="#zu_KW43"><span class="tocnumber">2.2</span> <span class="toctext">zu KW43</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#zu_KW44"><span class="tocnumber">2.3</span> <span class="toctext">zu KW44</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Laufzeitmessung"><span class="tocnumber">2.3.1</span> <span class="toctext">Laufzeitmessung</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#zu_KW45"><span class="tocnumber">2.4</span> <span class="toctext">zu KW45</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Bugfix"><span class="tocnumber">2.4.1</span> <span class="toctext">Bugfix</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Zustandsidentifizierung"><span class="tocnumber">2.4.2</span> <span class="toctext">Zustandsidentifizierung</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#zu_KW46"><span class="tocnumber">2.5</span> <span class="toctext">zu KW46</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#Zustandsidentifizierung_2"><span class="tocnumber">2.5.1</span> <span class="toctext">Zustandsidentifizierung 2</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Beispiel_f.C3.BCr_den_Algorithmus"><span class="tocnumber">2.5.2</span> <span class="toctext">Beispiel für den Algorithmus</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#zu_KW47"><span class="tocnumber">2.6</span> <span class="toctext">zu KW47</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#zu_KW48"><span class="tocnumber">2.7</span> <span class="toctext">zu KW48</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#zu_KW49"><span class="tocnumber">2.8</span> <span class="toctext">zu KW49</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#zu_KW50"><span class="tocnumber">2.9</span> <span class="toctext">zu KW50</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#zu_KW51"><span class="tocnumber">2.10</span> <span class="toctext">zu KW51</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#zu_KW02"><span class="tocnumber">2.11</span> <span class="toctext">zu KW02</span></a>
+<ul>
+<li class="toclevel-3 tocsection-20"><a href="#UML-Sequenzdiagramm"><span class="tocnumber">2.11.1</span> <span class="toctext">UML-Sequenzdiagramm</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="#UML-Klassendiagramm"><span class="tocnumber">2.11.2</span> <span class="toctext">UML-Klassendiagramm</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-22"><a href="#zu_KW03"><span class="tocnumber">2.12</span> <span class="toctext">zu KW03</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#Quellen"><span class="tocnumber">3</span> <span class="toctext">Quellen</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="SS_2011">SS 2011</span></h2>
+<p>In der Version des Sommersemester 2011 von Daniel Wehring ist folgendes implementiert:
+</p>
+<ul><li>GUI</li>
+<li>Spielen zweier menschlicher Spieler</li>
+<li>Spielen gegen einen Computergegner der zufällige Aktionen ausführt</li>
+<li>Agenten erstellt unter Verwendung des <a href="https://wiki.blackpinguin.de/index.php?title=Reinforcment_Learning&amp;action=edit&amp;redlink=1" class="new" title="Reinforcment Learning (Seite nicht vorhanden)">Reinforcment Learning</a>-Frameworks von Patrick Boekhoven<sup id="cite_ref-boekhoven_1-0" class="reference"><a href="#cite_note-boekhoven-1">[1]</a></sup> mit <a rel="nofollow" class="external text" href="https://de.wikipedia.org/wiki/Java_Agent_Development_Framework">JADE</a>.</li>
+<li>Q Learning</li>
+<li>Sarsa</li>
+<li>Sarsa Lambda</li></ul>
+<h2><span id="WS_2011/2012"></span><span class="mw-headline" id="WS_2011.2F2012">WS 2011/2012</span></h2>
+<p>Bearbeitung in diesem Semester durch: <a href="https://wiki.blackpinguin.de/index.php?title=Benutzer:RCL&amp;action=edit&amp;redlink=1" class="new" title="Benutzer:RCL (Seite nicht vorhanden)">Robin C. Ladiges</a>
+</p><p>Noch zu machen:
+</p>
+<ul><li>einbetten des erstellten Agenten / weiterentwickeln</li>
+<li>Ausprobieren Neuronale Netze dafür einzusetzen</li></ul>
+<h3><span class="mw-headline" id="zu_KW42">zu KW42</span></h3>
+<p>geplant: SourceCode verstehen / ausführen, über Neuronale Netze informieren
+</p><p>Pakete angeguckt:
+</p>
+<ul><li>vierGewinntGui</li>
+<li>vierGewinntGui.enums</li>
+<li>vierGewinntGui.view</li>
+<li>vierGewinntKI</li></ul>
+<p>Offen:
+</p>
+<ul><li>Agent</li></ul>
+<p>Ausgeführt und etwas player vs maschine (Randomgegner) gespielt (possible Bug: Gegner wirft nie in die Reihe in die man grad geworfen hat). 
+</p><p>maschine vs maschine ist in der GUI nicht nachvollziehbar, da das ganze Spiel sofort durchläuft und keine Pausen drin sind.
+</p><p>RL Learning verwendet laut SourceCode JADE, führt aber noch zu Exceptions beim Versuch es zu starten, da irgendeine Datei nicht gefunden werden kann.
+FIXED 17.10.: Argumente für JADE-Aufruf fehlerhaft (evtl. aufgrund von unterschiedlichen JADE Versionen), Aufruf führt nun nicht mehr zu einer Exception, und der Computer spielt gegen sich selbst.
+</p><p>Kapitel 14 "Neural Networks" in <a rel="nofollow" class="external text" href="https://kataloge.uni-hamburg.de/DB=2/PPNSET?PPN=386648964">AI for game developers</a> von D. M. Bourg und G. Seemann gelesen bis zum Source Code.
+</p>
+<h4><span id="mögliche_Optimierungen"></span><span class="mw-headline" id="m.C3.B6gliche_Optimierungen">mögliche Optimierungen</span></h4>
+<ul><li>GamePanel.java&nbsp;: GUI mit Backbuffer arbeiten lassen (kein Flackern mehr)</li>
+<li>GamePanel.java::paintComponent(Graphics g) blauen Hintregrund einmal, statt 42 mal zeichnen.</li>
+<li>GamePanel.java::paintComponent(Graphics g) Referenzaufruf von ctrl.getModel().getMatrix() cachen</li>
+<li>Model.java&nbsp;: spielZuende() Ergebnis cachen, statt jedes mal neu aufzurufen in steinEinwerfenIn(int reihe)</li>
+<li>VG_Umwelt&nbsp;: doppelter Code zu Model.java</li>
+<li>VG_GUI&nbsp;: doppelter Code zu GamePanel.java</li></ul>
+<h3><span class="mw-headline" id="zu_KW43">zu KW43</span></h3>
+<p>geplant: Optimierungen umsetzen, und offenes Modul angucken.
+</p><p>umgesetzt, dabei bemerkt, dass die Umsetzung des Spielstates der Felder bei mensch vs mensch, mensch vs maschine und maschine vs maschine auf Enumerated Integers, und bei RL Learning auf einfachen Integern basiert (weswegen die selben Methoden doppelt implementiert wurden). Immo durch eine Umwandlung vor der neuen gemeinsamen Methode umgesetzt, aber es wäre gut, wenn das im ganzem Programm einheitlich mit normalen Integers wäre.
+</p><p>Die Änderungen müssten noch ins SVN (IDE einrichten).
+</p><p>Das Agenten Modul ist schwer verständlich, da es kaum kommentiert und sehr umfangreich ist.
+</p>
+<h3><span class="mw-headline" id="zu_KW44">zu KW44</span></h3>
+<p>geplant: Vortrag über bisherigen Projektstand, vereinheitlichen der Spielfelder auf int, restlichen SourceCode begutachten
+</p><p>Extra Aufgabe: Laufzeitmessung um die bisherigen Optimierungen zu messen
+</p>
+<h4><span class="mw-headline" id="Laufzeitmessung">Laufzeitmessung</span></h4>
+<p>Gemessen wurde die Zeit in VG_Umwelt.java::setup() die bei der Endlosschleife für das Sende_Reward Behavior benötigt wird (dieses Behavior verwendet die optimierte berechne_Reward() Methode). Die optimierten Teile der GUI zu messen macht keinen Sinn, da die Laufzeit sich hier nur minimal verbessert (oder sogar etwas verschlechtert) haben kann, und ein Unterschied hier auch sehr leicht an einem Messfehler liegen kann.
+</p><p>Gemessen wurde mit folgendem Code:<code>
+<br>long a = System.currentTimeMillis();
+<br>seq.addSubBehaviour(new Sende_Reward(VG_Agenten.NAME_AGENT_1));
+<br>long b = System.currentTimeMillis()-a;
+<br>msall+=b;
+<br>msn++;
+<br>System.out.println("Durchschnittszeit: "+Double.toString((double)msall/(double)msn));
+</code>
+</p><p>Gemessen wurde über einen Gesamtzeitraum von etwa 15 Minuten auf dem selben System (meinem Laptop) die Durchschnittszeit.
+</p>
+<table>
+
+<tbody><tr>
+<th>Ergebnis</th>
+<th>Durchschnittslaufzeit
+</th></tr>
+<tr>
+<td>alte Version</td>
+<td>19,287 ms
+</td></tr>
+<tr>
+<td>neue Version</td>
+<td>5,800 ms
+</td></tr></tbody></table>
+<p>Also benötigt die neue Version zur Belohnungsberechnung nur noch etwa 30% der Zeit die Vorher benötigt wurde (etwa 70% schneller).
+</p>
+<h3><span class="mw-headline" id="zu_KW45">zu KW45</span></h3>
+<p>geplant: VG_Situation::definiere_ID() von long auf BigInteger ändern um Zustände eindeutig zu identifizieren.
+</p>
+<h4><span class="mw-headline" id="Bugfix">Bugfix</span></h4>
+<p>possible Bug aus KW42, das der Random-Gegner nie in das eigene Feld wirft gefixt. Das Problem lag an der ComputerPlayerRandom::makeMove() Methode, die bei den zufälligen Zügen jene verwerfen sollte, bei denen die Reihe schon voll ist. Statt das oberste Feld zu prüfen ob es frei ist, wurde das unterste Feld überprüft (Offenbar Array-Index 0 mit 5 verwechselt...), wodurch der Computergegner nicht in Reihen werfen konnte, in die schon geworfen wurde. Das dies nicht früher aufgefallen ist, lag an einem Workaround, der bis zu 1000 mal (fehlerhaft) guckt ob die zufällig gewählte Reihe voll ist, und dann abbricht, um die letzte (womöglich eine wirklich volle Reihe) zu wählen.
+</p>
+<h4><span class="mw-headline" id="Zustandsidentifizierung">Zustandsidentifizierung</span></h4>
+<p>VierGewinnt mit einem 7x6-Feld kennt <i>4,531 * 10<sup>12</sup></i> Zustände <sup id="cite_ref-tromp_2-0" class="reference"><a href="#cite_note-tromp-2">[2]</a></sup>, ein Integer mit <i>2<sup>32</sup> = 4,294 * 10<sup>9</sup></i> reicht da nicht aus. Ein Long mit <i>2<sup>64</sup> = 1,845 * 10<sup>19</sup></i> würde dafür ausreichen. Das Problem ist der verwendete Algorithmus, der illegale Spielzustände die nicht erreicht werden können auch abbildet, so wird für das Spielfeld <i>3<sup>42</sup> = 1,094 * 10<sup>20</sup></i> benötigt, was nicht in einen Long passt (mal davon abgesehen, das long in Java signed und nicht unsigned ist...). Es wäre für den Algorithmus mindestens eine Variable mit 67 bit nötig, um alle möglichen Zustände die das Spielfeld haben kann (nicht die die das Spiel haben kann) abzubilden. Von daher wird es auf BigInteger geändert, was einfacher ist, als sich einen komplexen Algorithmus zu überlegen um Zustände bijektiv auf Long-Zahlen abzubilden (rausfiltern von illegalen Zuständen in der Nummerierung).
+</p>
+<h3><span class="mw-headline" id="zu_KW46">zu KW46</span></h3>
+<p>geplant: krank
+</p>
+<h4><span class="mw-headline" id="Zustandsidentifizierung_2">Zustandsidentifizierung 2</span></h4>
+<p>Statt BigInteger wird nun doch ein komplexerer Algorithmus implementiert.
+</p><p>Der Algorithmus erstellt eine Bit-Codierung, so dass für jede Reihe in 3 Bit (<i>2<sup>3</sup> = 8</i>, eine Reihe hat 6 Felder) festgehalten wird wieviele Spielfelder durch Spielsteine belegt sind, und für jede Reihe in 6 Bit ob das Feld mit einem Roten(Bit=0) oder einem Gelben(Bit=1) Stein belegt ist. Die Bits für die leeren Felder werden nicht beliebig mit 0 oder 1 belegt, da wir sonst unterschiedliche Long-Zahlen für ein und die selben Zustände hätten, deshalb wird sich auf 0 geeinigt. Die 0 hat dann zwar eine doppelt Belegung mit entweder Roten Steinen oder Leeren Feldern, aber dadurch das wir die Anzahl der belegten Steine speichern lässt sich dies unterscheiden. 
+</p><p>Wir profitieren hierbei von der Eigenschaft, das wir pro Reihe nun nicht mehr <i>3<sup>6</sup> = 729</i> Zustände benötigen sondern nur noch <i>2<sup>6</sup> * 2<sup>3</sup> = 2<sup>9</sup> = 512</i>, weil die Zustände mit Lücken zwischen Spielsteinen und Spielsteine die "in der Luft schweben" nicht mehr vorhanden sind. Genau genommen haben wir nur <i>2<sup>6</sup> * 6 = 384</i> mögliche Zustände pro Reihe, die zusätzlichen Zustände kommen von der Tatsache das wir Binär für die Zahl 6 mindestens 3 Bit benötigen (2 Bit mit maximum 4 reicht nicht aus).
+</p><p>Dadurch brauchen wir bei 7 Reihen (Spalten) lediglich <i>(3+6) * 7 = 9 * 7 = 63</i> Bit für das gesamte Spielfeld. Da ein long in Java 64 bit hat, und ein Zeichen für das Vorzeichen reserviert ist (<i>64 - 1 = 63</i>), passt das genau hin.
+</p><p>Eine variable Länge der 6 Bits für die Belegung wäre zwar auch denkbar, aber dadurch ersparen wir letzendlich nichts im Vergleich zur festen Länge ein, da wir vom Schlimmsten Fall ausgehen müssen, das alle Felder belegt sind und wir die ganzen 63 Bit benötigen. Dieser Ansatz könnte in anderen Fällen, in denen z.B. eine ganze Reihe von Spielzuständen in eine Datei gespeichert oder ein einzelner Zustand übers Netzwerk übertragen werden soll, von Vorteil sein.
+</p><p>Zum Vergleich: der bisher implementierte Algorithmus errechnete Zahlen von 0 bis <i>3<sup>42</sup> = 1,094 * 10<sup>20</sup></i> und der neue Algorithmus nur Zahlen von 0 bis <i>(2<sup>6</sup> * 2<sup>3</sup>)<sup>7</sup> = (2<sup>9</sup>)<sup>7</sup> = 2<sup>63</sup> = 9,223 * 10<sup>18</sup></i>.
+</p>
+<h4><span id="Beispiel_für_den_Algorithmus"></span><span class="mw-headline" id="Beispiel_f.C3.BCr_den_Algorithmus">Beispiel für den Algorithmus</span></h4>
+<p>Folgender Spielzustand:
+</p><p><a href="datei-7686219650993325465_beispiel.png" class="image"><img alt="7686219650993325465 beispiel.png" src="7686219650993325465_beispiel.png" width="348" height="301"></a>
+</p>
+<table>
+
+<tbody><tr>
+<td>Reihe (v.L.n.R.)</td>
+<td>Anzahl Steine</td>
+<td>Belegung (v.O.n.U., <b>F</b>rei, <b>G</b>elb, <b>R</b>ot)</td>
+<td>Binär (F=0, G=1, R=0)
+</td></tr>
+<tr>
+<td>1</td>
+<td><span style="color: red;">6</span></td>
+<td><span style="color: blue;">GRGRGR</span></td>
+<td><span style="color: red;">110</span><span style="color: blue;">101010</span>
+</td></tr>
+<tr>
+<td>2</td>
+<td><span style="color: red;">5</span></td>
+<td><span style="color: blue;">FGRGGG</span></td>
+<td><span style="color: red;">101</span><span style="color: blue;">010111</span>
+</td></tr>
+<tr>
+<td>3</td>
+<td><span style="color: red;">4</span></td>
+<td><span style="color: blue;">FFRRRR</span></td>
+<td><span style="color: red;">100</span><span style="color: blue;">000000</span>
+</td></tr>
+<tr>
+<td>4</td>
+<td><span style="color: red;">6</span></td>
+<td><span style="color: blue;">RGRRGG</span></td>
+<td><span style="color: red;">110</span><span style="color: blue;">010011</span>
+</td></tr>
+<tr>
+<td>5</td>
+<td><span style="color: red;">3</span></td>
+<td><span style="color: blue;">FFFGRG</span></td>
+<td><span style="color: red;">011</span><span style="color: blue;">000101</span>
+</td></tr>
+<tr>
+<td>6</td>
+<td><span style="color: red;">3</span></td>
+<td><span style="color: blue;">FFFRGR</span></td>
+<td><span style="color: red;">011</span><span style="color: blue;">000010</span>
+</td></tr>
+<tr>
+<td>7</td>
+<td><span style="color: red;">6</span></td>
+<td><span style="color: blue;">RGGRRG</span></td>
+<td><span style="color: red;">110</span><span style="color: blue;">011001</span>
+</td></tr></tbody></table>
+<p>Was zu der binären 64 Bit Zahl <span style="color: green;">0</span><span style="color: red;">110</span><span style="color: blue;">101010</span><span style="color: red;">101</span><span style="color: blue;">010111</span><span style="color: red;">100</span><span style="color: blue;">000000</span><span style="color: red;">110</span><span style="color: blue;">010011</span><span style="color: red;">011</span><span style="color: blue;">000101</span><span style="color: red;">011</span><span style="color: blue;">000010</span><span style="color: red;">110</span><span style="color: blue;">011001</span> führt, was dezimal die 7.686.219.650.993.325.465 ist.
+</p>
+<h3><span class="mw-headline" id="zu_KW47">zu KW47</span></h3>
+<p>geplant: (1) Reinforcment Learning GUI Darstellung von JList zu JTable ändern (Werte in JTable updaten, statt immer die ganze JList neu zu erstellen wenn sich etwas ändert). (2) Nur die Zustände/Aktionen speichern, die durch den Lernalgorithmus einen vom Default 0 verschiedenen Wert bekommen.
+</p>
+<h3><span class="mw-headline" id="zu_KW48">zu KW48</span></h3>
+<p>geplant: Framework erweitern, um eine Factory zu übergeben um Situations_Aktionen zu erstellen.
+</p><p>Dadurch ist es möglich Situations_Aktionen selbst zu definieren, und so die hashCode und equals Methoden zu überschreiben.
+</p><p>Dies wird konkret verwendet, um aus den Q-Werten, mit denen das Framework arbeitet, V-Werte zu machen. Dadurch ist bei Vier Gewinnt eine Situations_Aktion definiert durch den Zustand in den man gelangt wenn man die Aktion in dem aktuellem Zustand ausführt.
+</p>
+<h3><span class="mw-headline" id="zu_KW49">zu KW49</span></h3>
+<p>geplant: entdeckten Fehler finden und beseitigen.
+</p><p>Der Fehler äußerte sich wenn eine verbotene Aktion auftritt, das man in der Ausgabe sehen konnte, das der Agent bereits von einer anderen Situation ausgeht, und nicht mehr von der, bei der die verbotene Aktion ausgeführt wurde.
+</p><p>Die Fehlerursache lag an dem von mir implementierten Factory aus der vorigen Woche, konkret in den Methoden um die Folgezustände zu berechnen. Hier habe ich fehlerhaft angenommen, das ein byte[][] Parameter in Java Call by Value ist, was aber in wirklichkeit Call by Reference ist, was dazu führte das bei jeder Berechnung einer Situations_Aktion die Aktion destruktiv verändert wurde.
+</p><p>Das desturktive Verändern von Situationen war aber an anderer Stelle auch schon vorhanden, wo mit einem Setter ein Situationsobjekt verändert wurde, was nun auch gefixt ist. Setter die nicht benötigt werden, und destruktiv die Frameworklogik verändern wurden entfernt.
+</p>
+<h3><span class="mw-headline" id="zu_KW50">zu KW50</span></h3>
+<p>geplant: Framework kommentieren, Lernalgorithmus und Parameter in GUI auswähl-/bestimmbar
+</p>
+<h3><span class="mw-headline" id="zu_KW51">zu KW51</span></h3>
+<p>geplant: Anwendung kommentieren, Lernalgorithmen auf Korrektheit prüfen und kommentieren.
+</p>
+<h3><span class="mw-headline" id="zu_KW02">zu KW02</span></h3>
+<p>geplant: Belohnungs-Verteilung überarbeiten und UML-Diagramme zeichnen.
+</p>
+<h4><span class="mw-headline" id="UML-Sequenzdiagramm">UML-Sequenzdiagramm</span></h4>
+<p>Folgendes Diagramm zeigt die Kommunikation zwischen Umwelt und Agenten.
+</p><p><a href="datei-vg_sequenzdiagramm.png" class="image"><img alt="VG Sequenzdiagramm.png" src="500px-vg_sequenzdiagramm.png" srcset="/images/thumb/5/5b/VG_Sequenzdiagramm.png/750px-VG_Sequenzdiagramm.png 1.5x, /images/thumb/5/5b/VG_Sequenzdiagramm.png/1000px-VG_Sequenzdiagramm.png 2x" width="500" height="356"></a>
+</p><p>Im Code zu finden unter Agent_Frame.java (Kommunikationselement) und A_Umwelt.java (Kommunikation).
+</p>
+<h4><span class="mw-headline" id="UML-Klassendiagramm">UML-Klassendiagramm</span></h4>
+<p>Folgendes Diagramm zeigt die Architektur des Frameworks und die Vererbung der Anwendungs-Klassen.
+</p><p><a href="datei-vg_klassendiagramm.png" class="image"><img alt="VG Klassendiagramm.png" src="800px-vg_klassendiagramm.png" srcset="/images/thumb/d/d7/VG_Klassendiagramm.png/1200px-VG_Klassendiagramm.png 1.5x, /images/thumb/d/d7/VG_Klassendiagramm.png/1600px-VG_Klassendiagramm.png 2x" width="800" height="363"></a>
+</p><p>In der Mitte des Bilder ist die Klasse Agent von <a href="https://wiki.blackpinguin.de/index.php?title=JADE&amp;action=edit&amp;redlink=1" class="new" title="JADE (Seite nicht vorhanden)">JADE</a>, von der A_Umwelt und Agent_Frame erben. Beides sind also Agenten, und JADE ist für das Starten, Beenden, Sheduling und Nachrichten zwischen Umwelt und Agenten zuständig.
+</p><p>Ein Agent_Frame hat ein Lernelement (der Algorithmus der verwendet wird), Leistungselement (merken der Ergebnisse des Algorithmus, und basierend davon die beste Aktion auswählen) und Problemgenerator (zufällig Explorieren: etwas anderes ausprobieren, abhängig von der Wahrscheinlichkeit epsilon). Jedes Objekt der Klasse Agent_Frame hat ein eigenes JFrame zur Anzeige dessen Wertetabelle des Leistungselements. Welches Lernelement verwendet werden soll, und mit welchen Parametern, lässt sich in der von Agent_Frame erbenden Klasse steuern (konkret: VG_Agent_Frame).
+</p><p>Die Umwelt hält die Referenz auf die aktuelle Situation und ändert diese bei Aktionen der Agenten, sowie ein Objekt der abstrakten Klasse A_Uebergabe, über die Startparameter übergeben werden (Startsituation, mögliche Aktionen, etc). Die A_Uebergabe Klasse hat auch die optionale Möglichkeit eine andere Factory zu verwenden, mit der aus Situationen (A_Situation) und Aktionen (A_Aktion) Situations-Aktions Paare (A_Situation_Aktion) erstellt werden, dies ist z.B. bei Vier Gewinnt der Fall, in dem Situations-Aktions-Paare die zum gleichen Folgezustand führen als Äquivalent gelten.
+</p><p>Im Falle von Vier Gewinnt enthält die VG_Umwelt auch noch ein JFrame um das Spielfeld darzustellen. VG_Umwelt implementiert die abstrakten Methoden um die Bewertung für einen bestimmten Agenten zu bestimmen, sowie um zu prüfen ob eine Aktion erlaubt ist.
+</p><p>Die Klassen A_Situation und A_Aktion müssen (ebenso wie VG_Umwelt und VG_Agent_Frame) von der Anwendung realisiert werden. Sie benötigen die Implementation der Methode um eine eindeutige ID zu berechnen (siehe auch KW45/46), sowie im Falle von A_Aktion die Methode um aus einer gegebenen Situation bei der jeweiligen Aktion den Folgezustand zu berechnen.
+</p>
+<h3><span class="mw-headline" id="zu_KW03">zu KW03</span></h3>
+<p>geplant: Präsentationsfolien erstellen und UML-Klassendiagramm textuell ergänzen.
+</p>
+<h2><span class="mw-headline" id="Quellen">Quellen</span></h2>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-boekhoven-1"><span class="mw-cite-backlink"><a href="#cite_ref-boekhoven_1-0">↑</a></span> <span class="reference-text">Patrick Boekhoven, Entwicklung eines Reinforcement Learning Frameworks auf Basis eines Agentensystems, 2011, Hamburg - URL <a rel="nofollow" class="external free" href="http://opus.haw-hamburg.de/volltexte/2011/1269/">http://opus.haw-hamburg.de/volltexte/2011/1269/</a></span>
+</li>
+<li id="cite_note-tromp-2"><span class="mw-cite-backlink"><a href="#cite_ref-tromp_2-0">↑</a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20140414062502/http://homepages.cwi.nl/~tromp/c4/c4.html">http://homepages.cwi.nl/~tromp/c4/c4.html</a></span>
+</li>
+</ol></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20241028114603
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.072 seconds
+Real time usage: 0.081 seconds
+Preprocessor visited node count: 168/1000000
+Preprocessor generated node count: 300/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1015/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+</div></div>					<div class="printfooter">
+						Abgerufen von „<a dir="ltr" href="default_022.html" indepth="true">https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;oldid=36</a>“					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://wiki.blackpinguin.de/index.php/Spezial:Kategorien" title="Spezial:Kategorien">Kategorien</a>: <ul><li><a href="https://wiki.blackpinguin.de/index.php?title=Kategorie:Reinforcement_Learning&amp;action=edit&amp;redlink=1" class="new" title="Kategorie:Reinforcement Learning (Seite nicht vorhanden)">Reinforcement Learning</a></li><li><a href="https://wiki.blackpinguin.de/index.php?title=Kategorie:SS11&amp;action=edit&amp;redlink=1" class="new" title="Kategorie:SS11 (Seite nicht vorhanden)">SS11</a></li><li><a href="https://wiki.blackpinguin.de/index.php?title=Kategorie:WS11/12&amp;action=edit&amp;redlink=1" class="new" title="Kategorie:WS11/12 (Seite nicht vorhanden)">WS11/12</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigationsmenü</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Meine Werkzeuge</h3>
+						<ul>
+							<li id="pt-login"><a href="https://wiki.blackpinguin.de/index.php?title=Spezial:Anmelden&amp;returnto=Vier+gewinnt&amp;returntoquery=oldid%3D36" title="Sich anzumelden wird gerne gesehen, ist jedoch nicht zwingend erforderlich. [Alt+Shift+o]" accesskey="o">Anmelden</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namensräume</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="vier_gewinnt.html" title="Seiteninhalt anzeigen [Alt+Shift+c]" accesskey="c" indepth="true">Seite</a></span></li><li id="ca-talk" class="new"><span><a href="https://wiki.blackpinguin.de/index.php?title=Diskussion:Vier_gewinnt&amp;action=edit&amp;redlink=1" rel="discussion" title="Diskussion zum Seiteninhalt (Seite nicht vorhanden) [Alt+Shift+t]" accesskey="t">Diskussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input class="vectorMenuCheckbox" aria-labelledby="p-variants-label" type="checkbox">
+						<h3 id="p-variants-label">
+							<span>Varianten</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Ansichten</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="vier_gewinnt.html" indepth="true">Lesen</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="default_040.html" title="Diese Seite ist geschützt. Ihr Quelltext kann dennoch angesehen und kopiert werden. [Alt+Shift+e]" accesskey="e" indepth="true">Quelltext anzeigen</a></span></li><li id="ca-history" class="collapsible"><span><a href="default_008.html" title="Frühere Versionen dieser Seite [Alt+Shift+h]" accesskey="h" indepth="true">Versionsgeschichte</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" type="checkbox">
+						<h3 id="p-cactions-label"><span>Mehr</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Suche</label>
+						</h3>
+						<form action="https://wiki.blackpinguin.de/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input name="search" placeholder="BP Wiki durchsuchen" title="BP Wiki durchsuchen [Alt+Shift+f]" accesskey="f" id="searchInput" type="search"><input value="Spezial:Suche" name="title" type="hidden"><input name="fulltext" value="Suchen" title="Suche nach Seiten, die diesen Text enthalten" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" type="submit"><input name="go" value="Seite" title="Gehe direkt zu der Seite mit genau diesem Namen, falls sie vorhanden ist." id="searchButton" class="searchButton" type="submit">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="index.html" title="Hauptseite" indepth="true"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="index.html" title="Hauptseite besuchen [Alt+Shift+z]" accesskey="z" indepth="true">Hauptseite</a></li><li id="n-recentchanges"><a href="https://wiki.blackpinguin.de/index.php/Spezial:Letzte_%C3%84nderungen" title="Liste der letzten Änderungen in diesem Wiki [Alt+Shift+r]" accesskey="r">Letzte Änderungen</a></li><li id="n-randompage"><a href="https://wiki.blackpinguin.de/index.php/Spezial:Zuf%C3%A4llige_Seite" title="Zufällige Seite aufrufen [Alt+Shift+x]" accesskey="x">Zufällige Seite</a></li><li id="n-help-mediawiki"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">Help about MediaWiki</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Werkzeuge</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="https://wiki.blackpinguin.de/index.php/Spezial:Linkliste/Vier_gewinnt" title="Liste aller Seiten, die hierher verlinken [Alt+Shift+j]" accesskey="j">Links auf diese Seite</a></li><li id="t-recentchangeslinked"><a href="https://wiki.blackpinguin.de/index.php/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Vier_gewinnt" rel="nofollow" title="Letzte Änderungen an Seiten, die von hier verlinkt sind [Alt+Shift+k]" accesskey="k">Änderungen an verlinkten Seiten</a></li><li id="t-specialpages"><a href="https://wiki.blackpinguin.de/index.php/Spezial:Spezialseiten" title="Liste aller Spezialseiten [Alt+Shift+q]" accesskey="q">Spezialseiten</a></li><li id="t-print"><a href="https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;oldid=36&amp;printable=yes" rel="alternate" title="Druckansicht dieser Seite [Alt+Shift+p]" accesskey="p">Druckversion</a></li><li id="t-permalink"><a href="default_022.html" title="Dauerhafter Link zu dieser Seitenversion" indepth="true">Permanenter Link</a></li><li id="t-info"><a href="https://wiki.blackpinguin.de/index.php?title=Vier_gewinnt&amp;action=info" title="Weitere Informationen über diese Seite">Seiten­informationen</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-copyright">Der Inhalt ist verfügbar unter der Lizenz <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen</a>, sofern nicht anders angegeben.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://wiki.blackpinguin.de/index.php/bp_wiki:Datenschutz" title="bp wiki:Datenschutz">Datenschutz</a></li>
+								<li id="footer-places-about"><a href="https://wiki.blackpinguin.de/index.php/bp_wiki:%C3%9Cber_BP_Wiki" title="bp wiki:Über BP Wiki">Über BP Wiki</a></li>
+								<li id="footer-places-disclaimer"><a href="https://wiki.blackpinguin.de/index.php/bp_wiki:Impressum" title="bp wiki:Impressum">Haftungsausschluss</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="cc-by-nc-sa.png" alt="Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen" width="88" height="31"></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.072","walltime":"0.081","ppvisitednodes":{"value":168,"limit":1000000},"ppgeneratednodes":{"value":300,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1015,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20241028114603","ttl":86400,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":187});});</script>
+	
+
+
+
+</body></html>
